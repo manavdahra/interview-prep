@@ -9,16 +9,8 @@ public class CompetingThreads {
     private static final Object lock = new Object();
 
     public static void main(String[] args) throws InterruptedException {
-        Thread t1 = new Thread(new Runnable() {
-            @Override public void run() {
-                bowl();
-            }
-        });
-        Thread t2 = new Thread(new Runnable() {
-            @Override public void run() {
-                bat();
-            }
-        });
+        Thread t1 = new Thread(CompetingThreads::bowl);
+        Thread t2 = new Thread(CompetingThreads::bat);
 
         t2.start();
         Thread.sleep(10);
