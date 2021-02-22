@@ -1,36 +1,28 @@
 package graphs;
 
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
-/**
- * Author: B0204046
- * Date: 26/08/18 11:39
- */
 public class Graph {
 
     private int V;
 
-    private List<Integer>[] adj;
+    private List<List<Integer>> adj;
 
     public Graph(int v) {
         V = v;
-        adj = new List[v];
+        adj = new ArrayList<>();
         for (int i = 0; i < v; i++) {
-            adj[i] = new LinkedList<>();
+            adj.add(new LinkedList<>());
         }
     }
 
     public void addEdge(int v, int w) {
-        adj[v].add(w);
+        adj.get(v).add(w);
     }
 
     public void DFS(int v, boolean[] visited) {
-        System.out.print(v + " ");
         visited[v] = true;
-        List<Integer> vertices = adj[v];
+        List<Integer> vertices = adj.get(v);
         for (int vertex : vertices) {
             if (visited[vertex]) {
                 continue;
@@ -41,7 +33,7 @@ public class Graph {
     }
 
     public void DFS(boolean[] visited) {
-        for (int i = 0; i < adj.length; i++) {
+        for (int i = 0; i < adj.size(); i++) {
             if (visited[i]) {
                 continue;
             }
@@ -57,7 +49,7 @@ public class Graph {
         System.out.print(v + " ");
         while (!queue.isEmpty()) {
             int vertex = queue.remove();
-            List<Integer> neighbors = adj[vertex];
+            List<Integer> neighbors = adj.get(vertex);
             for (int n : neighbors) {
                 if (visited[n]) {
                     continue;
@@ -70,7 +62,7 @@ public class Graph {
     }
 
     public void BFS(boolean[] visited) {
-        for (int v = 0; v < adj.length; v++) {
+        for (int v = 0; v < adj.size(); v++) {
             if (visited[v]) {
                 continue;
             }
@@ -86,7 +78,7 @@ public class Graph {
         while (!q.isEmpty()) {
             int v = q.remove();
             visited[v] = true;
-            List<Integer> adjVertices = this.adj[v];
+            List<Integer> adjVertices = this.adj.get(v);
             for (int vx : adjVertices) {
                 if (visited[vx]) {
                     continue;
