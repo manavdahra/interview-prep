@@ -32,7 +32,7 @@ def bstToDLL(root: TreeNode) -> TreeNode:
     def helper(node: TreeNode):
         if not node: return None
 
-        leftDLL = bstToDLL(node.left)
+        leftDLL = helper(node.left)
         
         if leftDLL:
             while leftDLL and leftDLL.right:
@@ -40,7 +40,7 @@ def bstToDLL(root: TreeNode) -> TreeNode:
             leftDLL.right = node
             node.left = leftDLL
 
-        rightDLL = bstToDLL(node.right)
+        rightDLL = helper(node.right)
         
         if rightDLL:
             while rightDLL and rightDLL.left:

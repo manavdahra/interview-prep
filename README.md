@@ -8,6 +8,10 @@ Dynamic programming:
 1. Edit distance: https://leetcode.com/problems/edit-distance/
 2. Word Break 2: https://leetcode.com/problems/word-break-ii/
 3. Word Break: https://leetcode.com/problems/word-break/
+4. Longest increasing path in matrix: https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+5. Regular expression matching: https://leetcode.com/problems/regular-expression-matching/
+6. Minimum cost for tickets: https://leetcode.com/problems/minimum-cost-for-tickets/
+7. Knight Dialer: https://leetcode.com/problems/knight-dialer/
 
 Hashtables:
 1. Verifying Alien dict: https://leetcode.com/problems/verifying-an-alien-dictionary/
@@ -29,6 +33,8 @@ Binary search:
 4. Find peak element: https://leetcode.com/problems/find-peak-element/
 5. Kth missing positive num: https://leetcode.com/problems/kth-missing-positive-number/
 6. First and last position in sorted array: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+7. Find k closest elements: https://leetcode.com/problems/find-k-closest-elements/
+8. Balance Binary search tree: https://leetcode.com/problems/balance-a-binary-search-tree/
 
 Heaps:
 1. Find k closest points to origin: https://leetcode.com/problems/k-closest-points-to-origin/
@@ -49,6 +55,7 @@ Arrays:
 10. Monotnic array: https://leetcode.com/problems/monotonic-array/
 11. Sub array sum equals k: https://leetcode.com/problems/subarray-sum-equals-k/
 12. K-diff pairs in an array: https://leetcode.com/problems/k-diff-pairs-in-an-array/
+13. Split array with equal sums: https://leetcode.com/problems/split-array-with-equal-sum/
 
 Strings:
 1. Valid word abbreviation: https://leetcode.com/problems/valid-word-abbreviation/
@@ -56,6 +63,8 @@ Strings:
 3. Valid anagram: https://leetcode.com/problems/valid-anagram/
 4. Palindome permute: https://leetcode.com/problems/palindrome-permutation/
 5. Add bold tag in string: https://leetcode.com/problems/add-bold-tag-in-string/
+6. Permutation in a string: https://leetcode.com/problems/permutation-in-string/
+7. Minimum window substring: https://leetcode.com/problems/minimum-window-substring/
 
 Trees:
 1. Range Sum BST: https://leetcode.com/problems/range-sum-of-bst/
@@ -71,6 +80,8 @@ Trees:
 11. Lowest common ancestor in B-tree: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 12. Maximum difference between nodes and ancestors: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 13. All nodes distance k in B-tree: https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+14. Balance BST: https://leetcode.com/problems/balance-a-binary-search-tree/
+15. Smallest subtree with all deepest nodes: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
 Algo:
 1. Integer to english words: https://leetcode.com/problems/integer-to-english-words/
@@ -79,6 +90,7 @@ Algo:
 4. Task scheduler: https://leetcode.com/problems/task-scheduler/
 5. Maximum swap: https://leetcode.com/problems/maximum-swap/
 6. Basic calc 2: https://leetcode.com/problems/basic-calculator-ii/
+7. Strobogrammatic number: https://leetcode.com/problems/strobogrammatic-number/
 
 Linked List:
 1. Insert into sorted circular linked list: https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/
@@ -91,6 +103,11 @@ Graphs/BFS/DFS:
 4. Clone graph: https://leetcode.com/problems/clone-graph/
 5. Walls and gates: https://leetcode.com/problems/walls-and-gates/
 6. Course Schedule: https://leetcode.com/problems/course-schedule/
+7. Min moves to move a box to target: https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/
+8. Battleships in a board: https://leetcode.com/problems/battleships-in-a-board/
+9. Robot room cleaner: https://leetcode.com/problems/robot-room-cleaner/
+10. Shortest bridge: https://leetcode.com/problems/shortest-bridge/
+11. Swim rising water: https://leetcode.com/problems/swim-in-rising-water/
 
 Matrices
 1. Diagonal traverse: https://leetcode.com/problems/diagonal-traverse/

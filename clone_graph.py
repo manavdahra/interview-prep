@@ -49,22 +49,7 @@ class Node:
         self.val = val
         self.neibs = neibs
     
-    def print(self, n):
-        self.visited = set()
-        self.nodes = []
-        def dfs(node):
-            if not node: return
-
-            self.visited.add(node)
-            self.nodes.append(node.val)
-
-            for neib in node.neibs:
-                if neib in self.visited: continue
-                dfs(neib)
-
-        dfs(self)
-        print(self.nodes)
-
+    
 def cloneGraph(root: Node) -> Node:
     seen = {}
     def helper(node: Node) -> Node:
