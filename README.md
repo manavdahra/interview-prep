@@ -95,6 +95,7 @@ Algo:
 Linked List:
 1. Insert into sorted circular linked list: https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/
 2. Copy list randome pointer: https://leetcode.com/problems/copy-list-with-random-pointer/
+3. Swap nodes in pairs: https://leetcode.com/problems/swap-nodes-in-pairs/
 
 Graphs/BFS/DFS:
 1. Making a large island: https://leetcode.com/problems/making-a-large-island/
@@ -112,6 +113,7 @@ Graphs/BFS/DFS:
 Matrices
 1. Diagonal traverse: https://leetcode.com/problems/diagonal-traverse/
 2. Teoplitz matrix: https://leetcode.com/problems/toeplitz-matrix/
+3. Maximal rectangle: https://leetcode.com/problems/maximal-rectangle/
 
 Framework: 
 1. Repeat the question
